@@ -8,9 +8,13 @@
     <script src="index.js" defer></script>
 </head>
 <body>
-    <div class="game-container">
+    <div class="game-container" id="game-container">
         <h1>Tic Tac Toe</h1>
-        <button onclick="Gameflow.startGame()">Start</button>
+        <h2 id="h2">Press the Start Button!</h2>
+        <div class="button-container" id="button-container">
+            <button onclick="Gameflow.startGame()" id="startBtn">Start</button>
+        </div>
+        
         <div class="game-grid" id="board">
 
         </div>
